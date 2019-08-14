@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+/*====================================================
+custom styles
+======================================================
+*/
+body {
+	background-image: url("../images/memphis-mini.png");
+    color: #777777;
+    font: 300 16px/22px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+/*====================================================
+header styles
+======================================================
+*/
+
+.mainheader {
+    background-color: #ffffff;
+    border-bottom: thick solid #cccccc;
+    height: 71px;
+}
+.nav{
+    text-align: right;
+    clear: none;
+    padding: 25px 0px;
+}
+
+.nav li {
+    display: inline;
+    Padding: 0px 10px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+}
+
+.nav li a {
+    color: #777777
+}
+/*======================================
+Combine and clean these Anchor styles
+========================================
+*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4aaaa5;
+}
+
+.headerbox {
+    width: 960px;
+    margin: auto;
+}
+
+.logo {
+    background-color: #4aaaa5;
+    width: 210px;
+    color: #ffffff;
+    float: left; 
+    font-size: 25px;
+    padding: 25px 25px;
+    font-weight: bold
+
+
+}
+/*=================================================
+main content styles
+===================================================
+*/
+
+.mainsection {
+    width: 910px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    padding: 25px;
+    line-height: 2
+}
+
+.display h2 {
+  color: #4aaaa5;
+  font-size: 25px;
+  font-weight: bold
+}
+
+hr {
+  border: 2px solid #dddddd;
+}
+
+.profilepic {
+  width:250px;
+  margin: 25px 25px 25px 0px;
+  float: left;
+}
+
+.mainfooter {
+        position: fixed;
+        left:0px;
+        bottom:0px;
+        height:50px;
+        width:100%;
+        background-color:#666666;
+        border-top: 10px solid #4aaaa5;
+        text-align: center;
+        
+}
+small { 
+  color: #dddddd;
+  font-size: 10px;  
+ 
+}
+
+/*===============================================
+Contact Page
+=================================================
+*/
+
+.contact-group input, .contact-group textarea {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.sendbtn {
+  border: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/*===============================================
+Portfolio Page
+=================================================
+*/
+
+.hangman, .rolepg, .trivia, .widget, .roshambo {
+  width: 300px;
+  height: 200px;
+  margin-right: 25px;
+  margin-top: 25px;
+ 
+  
+}
+
+.porttabs {
+   height: 775px;
+}
+
+.container {
+  position: relative;
+}
+
+.wordgame {
+  position: absolute;
+  bottom: 510px;
+  padding-left: 115px;
+  padding-right: 115px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
