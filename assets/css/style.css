@@ -97,9 +97,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #4aaaa5;
-}
 
 .headerbox {
     width: 960px;
@@ -216,6 +213,45 @@ Portfolio Page
   bottom: 510px;
   padding-left: 115px;
   padding-right: 115px;
-  background-color: #4aaaa5;
   color: #ffffff;
+  background-color: #4aaaa5;
+  
 }
+.roleplay {
+  position: absolute;
+  bottom: 510px;
+  padding-left: 115px;
+  padding-right: 102px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+
+}
+.trigame {
+    position: absolute;
+    bottom: 285px;
+    left: 0px;
+    padding-left: 115px;
+    padding-right: 99px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.rutgers {
+    position: absolute;
+    bottom: 285px;
+    padding-left: 79px;
+    padding-right: 80px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+  .rps {
+      position: absolute;
+      bottom: 60px;
+      left: 0px;
+      padding-left: 76px;
+      padding-right: 76px;
+      color: #ffffff;
+      background-color: #4aaaa5;
+
+  }
